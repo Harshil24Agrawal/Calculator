@@ -1,59 +1,49 @@
-# Calculator
-# 🧮 CalculatorApp (Java Swing)
+# CalculatorApp (Java Swing)
 
-A simple **GUI-based Calculator** built using **Java Swing** that performs basic arithmetic operations — addition, subtraction, multiplication, and division.
-
----
-
-## 📋 Features
-
-- ➕ Addition  
-- ➖ Subtraction  
-- ✖️ Multiplication  
-- ➗ Division  
-- 💬 Error handling for division by zero  
-- 🔢 Works with integers and decimals  
-- 🖱️ User-friendly GUI  
-- 💡 Built entirely with **Swing** (no external libraries)
+A simple GUI-based calculator built using Java Swing.  
+It performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
 ---
 
-## 🖥️ Interface Preview
+## Features
+
+- Basic arithmetic operations: +, -, *, /
+- Handles both integer and decimal inputs
+- Displays an error message for division by zero
+- Simple, clean, and user-friendly interface
+- Built completely with Java Swing (no external libraries)
+
+---
+
+## Interface Overview
 
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
-1. **Enter Numbers:** Click on number buttons (`0–9`) or `.` to type your input.  
-2. **Select an Operator:** Choose one of the arithmetic operators (`+`, `-`, `*`, `/`).  
-3. **Perform Calculation:** Press `=` to get the result.  
-4. **Error Handling:** Dividing by zero displays `"Error"`.
-
----
-
-## 🧱 Project Structure
-
-
-### 🧩 Key Components
-
-| Component | Description |
-|------------|--------------|
-| `JFrame` | Main application window |
-| `JTextField` | Displays current input or result |
-| `JButton` | Used for digits and operators |
-| `JPanel (GridLayout)` | Holds calculator buttons |
-| `ActionListener` | Handles button click events |
+1. Enter numbers using the digit buttons (0–9) or the decimal point.
+2. Choose an operator (+, -, *, /).
+3. Press `=` to perform the calculation.
+4. If you divide by zero, the display shows "Error".
 
 ---
 
-## 🚀 How to Run
+## Project Structure
 
-### **Option 1: Using Command Line**
 
+**Main components:**
+- `JFrame`: Main application window  
+- `JTextField`: Display area for input and output  
+- `JButton`: Calculator buttons for digits and operations  
+- `JPanel` (GridLayout): Organizes buttons into a grid  
+- `ActionListener`: Handles button click events
+
+---
+
+## How to Run
+
+### Option 1: Using Command Line
 ```bash
-# Compile
 javac CalculatorApp.java
-
-# Run
 java CalculatorApp
